@@ -42,14 +42,17 @@ simLauncher.launch( () => {
       tandem: Tandem.ROOT.createTandem( 'lensScreen' )
     } ),
     new MirrorScreen( {
-      homeScreenIcon: createBasicsMirrorScreenIcon(),
+      homeScreenIcon: createMirrorScreenIcon(),
       tandem: Tandem.ROOT.createTandem( 'mirrorScreen' )
     } )
   ], simOptions );
   sim.start();
 } );
 
-function createBasicsMirrorScreenIcon(): Node {
+/**
+ * The Mirror screen supports only the 'flat' mirror, so create a 'flat' icon.
+ */
+function createMirrorScreenIcon(): Node {
   return new ScreenIcon( MirrorNode.createIconNode( 'flat' ), {
     fill: GOColors.screenBackgroundColorProperty
   } );
