@@ -7,12 +7,22 @@
  */
 
 import GOConstants from '../../geometric-optics/js/common/GOConstants.js';
+import GOGlobalOptions from '../../geometric-optics/js/common/GOGlobalOptions.js';
+import GOQueryParameters from '../../geometric-optics/js/common/GOQueryParameters.js';
 import LensScreen from '../../geometric-optics/js/lens/LensScreen.js';
 import MirrorScreen from '../../geometric-optics/js/mirror/MirrorScreen.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
+
+// ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
+GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
+
+// If enable2F query parameter was not in the URL, change the default.
+if ( !QueryStringMachine.containsKey( 'enable2F' ) ) {
+  GOQueryParameters.enable2F = true;
+}
 
 const simOptions = {
 
