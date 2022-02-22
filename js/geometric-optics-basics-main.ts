@@ -6,33 +6,32 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
+import GOConstants from '../../geometric-optics/js/common/GOConstants.js';
+import GOGlobalOptionsNode from '../../geometric-optics/js/common/view/GOGlobalOptionsNode.js';
+import LensScreen from '../../geometric-optics/js/lens/LensScreen.js';
+import MirrorScreen from '../../geometric-optics/js/mirror/MirrorScreen.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import GeometricOpticsBasicsScreen from './geometric-optics-basics/GeometricOpticsBasicsScreen.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
-
-const geometricOpticsBasicsTitleString = geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title;
 
 const simOptions = {
 
-  //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-  credits: {
-    leadDesign: '',
-    softwareDevelopment: '',
-    team: '',
-    qualityAssurance: '',
-    graphicArts: '',
-    soundDesign: '',
-    thanks: ''
-  }
+  credits: GOConstants.CREDITS,
+
+  // Creates content for the Options dialog, accessible via the PhET menu
+  createOptionsDialogContent: ( tandem: Tandem ) => new GOGlobalOptionsNode( {
+    tandem: tandem
+  } ),
+
+  // pdom options
+  hasKeyboardHelpContent: true
 };
 
-// launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
-// until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( geometricOpticsBasicsTitleString, [
-    new GeometricOpticsBasicsScreen( { tandem: Tandem.ROOT.createTandem( 'geometricOpticsBasicsScreen' ) } )
+  const sim = new Sim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, [
+    new LensScreen( { tandem: Tandem.ROOT.createTandem( 'lensScreen' ) } ),
+    new MirrorScreen( { tandem: Tandem.ROOT.createTandem( 'mirrorScreen' ) } )
   ], simOptions );
   sim.start();
 } );

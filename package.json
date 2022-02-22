@@ -11,12 +11,24 @@
   },
   "phet": {
     "requirejsNamespace": "GEOMETRIC_OPTICS_BASICS",
+    "phetLibs": [
+      "geometric-optics"
+    ],
+    "colorProfiles": [
+      "default",
+      "projector"
+    ],
     "simulation": true,
     "runnable": true,
     "supportedBrands": [
       "phet",
+      "phet-io",
       "adapted-from-phet"
     ],
+    "simFeatures": {
+      "supportsSound": true,
+      "supportsInteractiveDescription": true
+    },
     "supportsOutputJS": true
   },
   "eslintConfig": {

@@ -3,6 +3,9 @@
   "references": [
     {
       "path": "../joist/tsconfig-module.json"
+    },
+    {
+      "path": "../geometric-optics"
     }
   ],
   "include": [
