@@ -12,13 +12,9 @@ import GOQueryParameters from '../../geometric-optics/js/common/GOQueryParameter
 import LensScreen from '../../geometric-optics/js/lens/LensScreen.js';
 import MirrorScreen from '../../geometric-optics/js/mirror/MirrorScreen.js';
 import Sim from '../../joist/js/Sim.js';
-import { Node } from '../../scenery/js/imports.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
-import ScreenIcon from '../../joist/js/ScreenIcon.js';
-import GOColors from '../../geometric-optics/js/common/GOColors.js';
-import MirrorNode from '../../geometric-optics/js/mirror/view/MirrorNode.js';
 
 // ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
 GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
@@ -39,21 +35,13 @@ const simOptions = {
 simLauncher.launch( () => {
   const sim = new Sim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, [
     new LensScreen( {
+      isBasicsVersion: true,
       tandem: Tandem.ROOT.createTandem( 'lensScreen' )
     } ),
     new MirrorScreen( {
-      homeScreenIcon: createMirrorScreenIcon(),
+      isBasicsVersion: true,
       tandem: Tandem.ROOT.createTandem( 'mirrorScreen' )
     } )
   ], simOptions );
   sim.start();
 } );
-
-/**
- * The Mirror screen supports only the 'flat' mirror, so create a 'flat' icon.
- */
-function createMirrorScreenIcon(): Node {
-  return new ScreenIcon( MirrorNode.createIconNode( 'flat' ), {
-    fill: GOColors.screenBackgroundColorProperty
-  } );
-}
