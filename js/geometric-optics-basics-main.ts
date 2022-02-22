@@ -7,7 +7,7 @@
  */
 
 import GOConstants from '../../geometric-optics/js/common/GOConstants.js';
-import GOGlobalOptionsNode from '../../geometric-optics/js/common/view/GOGlobalOptionsNode.js';
+import GOGlobalOptions from '../../geometric-optics/js/common/GOGlobalOptions.js';
 import LensScreen from '../../geometric-optics/js/lens/LensScreen.js';
 import MirrorScreen from '../../geometric-optics/js/mirror/MirrorScreen.js';
 import Sim from '../../joist/js/Sim.js';
@@ -15,14 +15,12 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
 
+// ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
+GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
+
 const simOptions = {
 
   credits: GOConstants.CREDITS,
-
-  // Creates content for the Options dialog, accessible via the PhET menu
-  createOptionsDialogContent: ( tandem: Tandem ) => new GOGlobalOptionsNode( {
-    tandem: tandem
-  } ),
 
   // pdom options
   hasKeyboardHelpContent: true
