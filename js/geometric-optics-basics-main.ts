@@ -16,9 +16,6 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
 
-// ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
-GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
-
 // If enable2F query parameter was not in the URL, change the default.
 if ( !QueryStringMachine.containsKey( 'enable2F' ) ) {
   GOQueryParameters.enable2F = true;
@@ -33,6 +30,11 @@ const simOptions = {
 };
 
 simLauncher.launch( () => {
+
+  // ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
+  // This must be done inside the callback to simLauncher.launch.
+  GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
+
   const sim = new Sim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, [
     new LensScreen( {
       isBasicsVersion: true,
