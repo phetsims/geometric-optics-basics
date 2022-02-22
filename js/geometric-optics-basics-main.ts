@@ -38,7 +38,9 @@ const simOptions = {
 
 simLauncher.launch( () => {
   const sim = new Sim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, [
-    new LensScreen( { tandem: Tandem.ROOT.createTandem( 'lensScreen' ) } ),
+    new LensScreen( {
+      tandem: Tandem.ROOT.createTandem( 'lensScreen' )
+    } ),
     new MirrorScreen( {
       homeScreenIcon: createBasicsMirrorScreenIcon(),
       tandem: Tandem.ROOT.createTandem( 'mirrorScreen' )
