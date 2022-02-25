@@ -1,1 +1,1 @@
-_Geometric Optics: Basics_ is a simplified version of the _Geometric Optics_ simulation. It uses the same model and implementation. Please see [geometric-optics/doc/model.md](https://github.com/phetsims/geometric-optics/blob/master/doc/model.md) for model details.
+_Geometric Optics: Basics_ is a simplified version of the _Geometric Optics_ simulation. It shares the same model and implementation. Please see [geometric-optics/doc/model.md](https://github.com/phetsims/geometric-optics/blob/master/doc/model.md) for model details.
