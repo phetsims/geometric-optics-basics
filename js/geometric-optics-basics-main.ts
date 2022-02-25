@@ -13,7 +13,7 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
 
 // If enable2F query parameter was not in the URL, change the default.
-// This must be done in geometric-optics-basics-main.ts so that it only affects that sim.
+// This must be done in geometric-optics-basics-main.ts so that it only affects this sim.
 if ( !QueryStringMachine.containsKey( 'enable2F' ) ) {
   GOQueryParameters.enable2F = true;
 }
