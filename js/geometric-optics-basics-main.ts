@@ -23,7 +23,7 @@ simLauncher.launch( () => {
 
   // In Geometric Optics: Basis, we want to use the 'direct' method of setting focal length. This puts a Focal Length
   // control in the control panel, instead of Radius of Curvature and Index of Refraction controls. While the full
-  // version of the sim includes controls tochange the model in the Options dialog, we do not include those controls
+  // version of the sim includes controls to change the model in the Options dialog, those controls will be omitted
   // in this sim. So we ignore the focalLengthControl query parameter, and set this Property directly. Note that
   // changing this Property must be done inside the callback to simLauncher.launch, after PhET-iO has been initialized.
   GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
