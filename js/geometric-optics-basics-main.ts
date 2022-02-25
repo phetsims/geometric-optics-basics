@@ -26,7 +26,7 @@ simLauncher.launch( () => {
   // version of the sim includes controls to change the model in the Options dialog, those controls will be omitted
   // in this sim. So we ignore the focalLengthControl query parameter, and set this Property directly. Note that
   // changing this Property must be done inside the callback to simLauncher.launch, after PhET-iO has been initialized.
-  GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
+  GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
     isBasicsVersion: true
