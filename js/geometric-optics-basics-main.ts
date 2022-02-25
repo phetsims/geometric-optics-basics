@@ -21,7 +21,7 @@ if ( !QueryStringMachine.containsKey( 'enable2F' ) ) {
 simLauncher.launch( () => {
 
   // ?focalLengthControl is ignored, and the 'direct' focal-length model is used.
-  // This must be done inside the callback to simLauncher.launch.
+  // This must be done inside the callback to simLauncher.launch, after PhET-iO has been initialized.
   GOGlobalOptions.focalLengthControlTypeProperty.value = 'direct';
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
