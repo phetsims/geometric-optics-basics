@@ -17,10 +17,10 @@ simLauncher.launch( () => {
   // of setting focal length.
   GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
 
-  // In Geometric Optics: Basics, we want to respect the enabled2F query parameter. But if that query parameter is
-  // not provided, then we enable this feature.
-  if ( !QueryStringMachine.containsKey( 'enabled2F' ) ) {
-    GOGlobalOptions.enabled2FProperty.value = true;
+  // In Geometric Optics: Basics, we want to respect the twoFPointsEnabled query parameter.
+  // But if that query parameter is not provided, then we enable this feature.
+  if ( !QueryStringMachine.containsKey( 'twoFPointsEnabled' ) ) {
+    GOGlobalOptions.twoFPointsEnabledProperty.value = true;
   }
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
