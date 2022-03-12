@@ -17,10 +17,10 @@ simLauncher.launch( () => {
   // of setting focal length.
   GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
 
-  // In Geometric Optics: Basics, we want to respect the twoFPointsCheckboxVisible query parameter.
+  // In Geometric Optics: Basics, we want to respect the add2FPointsCheckbox query parameter.
   // But if that query parameter is not provided, then we enable this feature.
-  if ( !QueryStringMachine.containsKey( 'twoFPointsCheckboxVisible' ) ) {
-    GOGlobalOptions.twoFPointsCheckboxVisibleProperty.value = true;
+  if ( !QueryStringMachine.containsKey( 'add2FPointsCheckbox' ) ) {
+    GOGlobalOptions.add2FPointsCheckboxProperty.value = true;
   }
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
