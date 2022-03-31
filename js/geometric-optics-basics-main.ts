@@ -13,12 +13,14 @@ import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
 
 simLauncher.launch( () => {
 
-  // In Geometric Optics: Basis, we want to ignore the focalLengthControl query parameter, and use the 'direct' method
-  // of setting focal length.
-  GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
+  // In Geometric Optics: Basics, we want to respect the focalLengthControl query parameter.
+  // But if that query parameter is not provided, then set the associated Property to 'direct'.
+  if ( !QueryStringMachine.containsKey( 'focalLengthControl' ) ) {
+    GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
+  }
 
   // In Geometric Optics: Basics, we want to respect the add2FPointsCheckbox query parameter.
-  // But if that query parameter is not provided, then we enable this feature.
+  // But if that query parameter is not provided, then set the associated Property to true.
   if ( !QueryStringMachine.containsKey( 'add2FPointsCheckbox' ) ) {
     GOGlobalOptions.add2FPointsCheckboxProperty.value = true;
   }
