@@ -6,7 +6,7 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
-import GOGlobalOptions from '../../geometric-optics/js/common/GOGlobalOptions.js';
+import GOOptions from '../../geometric-optics/js/common/GOOptions.js';
 import GOSim from '../../geometric-optics/js/GOSim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
@@ -16,13 +16,13 @@ simLauncher.launch( () => {
   // In Geometric Optics: Basics, we want to respect the focalLengthControl query parameter.
   // But if that query parameter is not provided, then set the associated Property to 'direct'.
   if ( !QueryStringMachine.containsKey( 'focalLengthControl' ) ) {
-    GOGlobalOptions.focalLengthModelTypeProperty.value = 'direct';
+    GOOptions.focalLengthModelTypeProperty.value = 'direct';
   }
 
   // In Geometric Optics: Basics, we want to respect the add2FPointsCheckbox query parameter.
   // But if that query parameter is not provided, then set the associated Property to true.
   if ( !QueryStringMachine.containsKey( 'add2FPointsCheckbox' ) ) {
-    GOGlobalOptions.add2FPointsCheckboxProperty.value = true;
+    GOOptions.add2FPointsCheckboxProperty.value = true;
   }
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
