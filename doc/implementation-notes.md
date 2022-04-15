@@ -24,4 +24,4 @@ _Mirror_ screen:
 
 Global:
 * Default `focalLengthControlTypeProperty` to 'direct', and hide "Focal Length control" in the Options dialog. It is possible to make the control visible via PhET-iO. 
-* Default `add2FPointsCheckboxProperty` to `true`, so that "2F Points" checkbox is visible on _Lens_ screen.
+* Default `add2FPointsCheckboxProperty` to `true`, so that "2F Points" checkbox is visible on the _Lens_ screen.
