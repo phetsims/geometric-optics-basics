@@ -11,7 +11,7 @@ _Lens_ screen:
 * Convex lens only. It is possible to select concave lens via PhET-iO, or via the UI if radio buttons are made visible via PhET-iO.
 * Radio buttons to select the optic shape are hidden. It is possible to make them visible via PhET-iO.
 * "Second Point" checkbox in the control panel is hidden.  It is possible to make it visible via PhET-iO.
-* Label 'Object' and 'Image' (not 'Object 1' and 'Image 1') unless a second point or second object is visible.
+* Label 'Object' and 'Image' (not 'Object 1' and 'Image 1') unless a second point/object is visible.
 
 _Mirror_ screen:
 * Flat mirror only. It is NOT possible to add concave and convex mirror via PhET-iO.
