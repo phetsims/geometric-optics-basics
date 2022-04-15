@@ -19,8 +19,8 @@ _Mirror_ screen:
 * Flat mirror only. It is NOT possible to add concave and convex mirror via PhET-iO.
 * Since there is only one mirror shape, hide the radio button. It is possible to make it visible via PhET-iO.
 * Since we have only a flat mirror, move the mirror to the same screen coordinates as the lens.
-* Change screen icon to a flat mirror.
 * Because the F and 2F points for a flat mirror are located at infinity, remove checkboxes for “Focal Points” and "2F Points" from the control panel. It is NOT possible to add them via PhET-iO.
+* Change screen icon to a flat mirror.
 
 Global (PhET > Options):
 * Default `focalLengthControlTypeProperty` to 'direct', and hide "Focal Length control" in the Options dialog. It is possible to make the control visible via PhET-iO. 
