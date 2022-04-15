@@ -19,7 +19,7 @@ _Mirror_ screen:
 * Change screen icon to a flat mirror.
 * Since we have only a flat mirror, move the mirror to the same screen coordinates as the lens.
 * "Second Point" checkbox in the control panel is hidden.  It is possible to make it visible via PhET-iO. 
-* Label 'Object' and 'Image' (not 'Object 1' and 'Image 1') unless a second point or second object is visible.
+* Label 'Object' and 'Image' (not 'Object 1' and 'Image 1') unless a second point/object is visible.
 * Remove checkboxes for “Focal Points” and "2F Points". It is NOT possible to add them via PhET-iO.
 
 Global:
