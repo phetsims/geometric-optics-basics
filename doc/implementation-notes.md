@@ -9,7 +9,7 @@ From https://github.com/phetsims/geometric-optics-basics/issues/2, here's a summ
 
 Both screens:
 * "Second Point" checkbox in the control panel is hidden.  It is possible to make it visible via PhET-iO.
-* Label 'Object' and 'Image' (not 'Object 1' and 'Image 1') unless a second point/object is visible.
+* When the "Labels" checkbox is checked, use labels "Object" and "Real/Virtual Image" for the first object/image. If a second object is made visible, use labels "Object 1" and "Real/Virtual Image 1" for the first object/image, "Object 2" and "Real/Virtual Image 2" for the second object/image.
 
 _Lens_ screen:
 * Convex lens only. It is possible to select concave lens via PhET-iO, or via the UI if radio buttons are made visible via PhET-iO.
