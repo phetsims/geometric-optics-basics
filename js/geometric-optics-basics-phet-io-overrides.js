@@ -28,7 +28,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.model.lens.indexOfRefractionProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.model.lens.opticShapeProperty": {
+    "geometricOpticsBasics.lensScreen.model.lens.opticSurfaceTypeProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.lensScreen.model.lens.positionProperty": {
@@ -367,7 +367,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.mirrorScreen.model.mirror.indexOfRefractionProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.mirrorScreen.model.mirror.opticShapeProperty": {
+    "geometricOpticsBasics.mirrorScreen.model.mirror.opticSurfaceTypeProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.model.mirror.positionProperty": {
@@ -523,16 +523,16 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.mirrorScreen.view.controls.opticShapeRadioButtonGroup.enabledProperty": {
+    "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.enabledProperty": {
       "phetioFeatured": false
     },
-    "geometricOpticsBasics.mirrorScreen.view.controls.opticShapeRadioButtonGroup.flatRadioButton.enabledProperty": {
+    "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.flatRadioButton.enabledProperty": {
       "phetioFeatured": false
     },
-    "geometricOpticsBasics.mirrorScreen.view.controls.opticShapeRadioButtonGroup.flatRadioButton.visibleProperty": {
+    "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.flatRadioButton.visibleProperty": {
       "phetioFeatured": false
     },
-    "geometricOpticsBasics.mirrorScreen.view.controls.opticShapeRadioButtonGroup.visibleProperty": {
+    "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.visibleProperty": {
       "phetioFeatured": false
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.visibleProperty": {
