@@ -9,7 +9,7 @@ import geometricOpticsBasics from './geometricOpticsBasics.js';
 
 type StringsType = {
   'geometric-optics-basics': {
-    'title': string
+    'title': string;
   }
 };
 
