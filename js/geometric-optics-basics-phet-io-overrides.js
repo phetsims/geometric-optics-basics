@@ -1,6 +1,21 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
+    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.add2FPointsCheckbox.labelText.textProperty": {
+      "phetioFeatured": true
+    },
+    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.labelText.textProperty": {
+      "phetioFeatured": true
+    },
+    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.radioButtonGroup.directRadioButton.labelText.textProperty": {
+      "phetioFeatured": true
+    },
+    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.radioButtonGroup.indirectRadioButton.labelText.textProperty": {
+      "phetioFeatured": true
+    },
+    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.visibleProperty": {
+      "phetioFeatured": true
+    },
     "geometricOpticsBasics.global.view.options.add2FPointsCheckboxProperty": {
       "phetioFeatured": true
     },
@@ -262,6 +277,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.zoomOutButton.visibleProperty": {
       "phetioFeatured": false
     },
+    "geometricOpticsBasics.lensScreen.view.objectDragModeProperty": {
+      "phetioFeatured": true
+    },
     "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.left2FPointLabel.textNode.textProperty": {
       "phetioFeatured": true
     },
@@ -355,16 +373,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.mirrorScreen.model.mirror.focalLengthModels.directFocalLengthModel.focalLengthMagnitudeProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.mirrorScreen.model.mirror.focalLengthModels.indirectFocalLengthModel.indexOfRefractionProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.model.mirror.focalLengthModels.indirectFocalLengthModel.radiusOfCurvatureMagnitudeProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.mirrorScreen.model.mirror.focalLengthProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.model.mirror.indexOfRefractionProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.model.mirror.opticSurfaceTypeProperty": {
