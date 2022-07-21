@@ -26,7 +26,8 @@ simLauncher.launch( () => {
   }
 
   const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
-    isBasicsVersion: true
+    isBasicsVersion: true,
+    phetioDesigned: true
   } );
   sim.start();
 } );
