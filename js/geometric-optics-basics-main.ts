@@ -6,7 +6,7 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
-import GOPreferences from '../../geometric-optics/js/common/GOPreferences.js';
+import GOPreferences from '../../geometric-optics/js/common/model/GOPreferences.js';
 import GOSim from '../../geometric-optics/js/GOSim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
