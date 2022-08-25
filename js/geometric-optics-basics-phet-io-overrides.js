@@ -1,19 +1,7 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.add2FPointsCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.radioButtonGroup.directRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.radioButtonGroup.indirectRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.general.view.navigationBar.phetButton.phetMenu.optionsDialogCapsule.archetype.content.focalLengthModelControl.visibleProperty": {
+    "geometricOpticsBasics.general.view.navigationBar.preferencesButton.preferencesDialogCapsule.archetype.preferencesPanels.generalPreferencesPanel.simPreferences.focalLengthModelControl.visibleProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.global.view.options.add2FPointsCheckboxProperty": {
