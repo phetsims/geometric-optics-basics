@@ -4,13 +4,13 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.general.view.navigationBar.preferencesButton.preferencesDialogCapsule.archetype.preferencesPanels.generalPreferencesPanel.simPreferences.focalLengthModelControl.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.global.view.options.add2FPointsCheckboxProperty": {
+    "geometricOpticsBasics.global.view.preferences.add2FPointsCheckboxProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.global.view.options.cueingArrowsEnabledProperty": {
+    "geometricOpticsBasics.global.view.preferences.cueingArrowsEnabledProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.global.view.options.focalLengthModelTypeProperty": {
+    "geometricOpticsBasics.global.view.preferences.focalLengthModelTypeProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.lensScreen.model.lens.diameterProperty": {
