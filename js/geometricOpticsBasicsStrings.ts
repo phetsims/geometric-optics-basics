@@ -11,7 +11,7 @@ import geometricOpticsBasics from './geometricOpticsBasics.js';
 type StringsType = {
   'geometric-optics-basics': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   }
 };
 
