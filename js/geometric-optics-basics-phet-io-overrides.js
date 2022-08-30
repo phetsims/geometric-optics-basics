@@ -226,9 +226,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.opticSubpanel.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.titleText.textProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.visibleProperty": {
       "phetioFeatured": true
     },
@@ -254,51 +251,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": false
     },
     "geometricOpticsBasics.lensScreen.view.objectDragModeProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.left2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.leftFocalPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.opticalAxisLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.right2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.arrowSceneNode.labels.rightFocalPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.framedSceneNode.labels.left2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.framedSceneNode.labels.leftFocalPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.framedSceneNode.labels.opticalAxisLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.framedSceneNode.labels.right2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.framedSceneNode.labels.rightFocalPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.lightSceneNode.labels.left2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.lightSceneNode.labels.leftFocalPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.lightSceneNode.labels.opticalAxisLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.lightSceneNode.labels.right2FPointLabel.textNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.scenes.lightSceneNode.labels.rightFocalPointLabel.textNode.textProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.lensScreen.view.tools.toolboxNode.horizontalRulerIcon.visibleProperty": {
@@ -482,9 +434,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.opticSubpanel.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.titleText.textProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.visibleProperty": {
