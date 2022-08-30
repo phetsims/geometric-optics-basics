@@ -25,7 +25,7 @@ simLauncher.launch( () => {
     GOPreferences.add2FPointsCheckboxProperty.value = true;
   }
 
-  const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].title, {
+  const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].titleStringProperty, {
     isBasicsVersion: true,
     phetioDesigned: true
   } );
