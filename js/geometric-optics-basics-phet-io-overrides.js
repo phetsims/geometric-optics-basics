@@ -226,18 +226,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.opticSubpanel.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.manyRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.marginalRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.noneRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.principalRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.raysSubpanel.titleText.textProperty": {
       "phetioFeatured": true
     },
@@ -494,18 +482,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.opticSubpanel.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.manyRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.marginalRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.noneRadioButton.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.raysRadioButtonGroup.principalRadioButton.labelText.textProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.raysSubpanel.titleText.textProperty": {
