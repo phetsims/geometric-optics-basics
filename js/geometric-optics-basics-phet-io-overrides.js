@@ -196,26 +196,11 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.model.tools.verticalRuler.positionProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.focalPointsCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.guidesCheckbox.enabledProperty": {
       "phetioFeatured": false
     },
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.guidesCheckbox.visibleProperty": {
       "phetioFeatured": false
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.labelsCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.secondPointCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.twoFPointsCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.virtualImageCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
     },
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.checkboxGroup.visibleProperty": {
       "phetioFeatured": true
@@ -416,15 +401,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.model.tools.verticalRuler.positionProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.checkboxGroup.labelsCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.checkboxGroup.secondPointCheckbox.labelText.textProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.checkboxGroup.virtualImageCheckbox.labelText.textProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.controlPanel.checkboxGroup.visibleProperty": {
