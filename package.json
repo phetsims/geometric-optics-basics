@@ -28,7 +28,8 @@
       "supportsSound": true,
       "supportsInteractiveDescription": true
     },
-    "supportsOutputJS": true
+    "supportsOutputJS": true,
+    "supportsDynamicLocale": true
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
