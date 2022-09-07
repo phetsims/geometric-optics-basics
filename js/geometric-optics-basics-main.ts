@@ -9,7 +9,7 @@
 import GOPreferences from '../../geometric-optics/js/common/model/GOPreferences.js';
 import GOSim from '../../geometric-optics/js/GOSim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
-import geometricOpticsBasicsStrings from './geometricOpticsBasicsStrings.js';
+import GeometricOpticsBasicsStrings from './GeometricOpticsBasicsStrings.js';
 
 simLauncher.launch( () => {
 
@@ -25,7 +25,7 @@ simLauncher.launch( () => {
     GOPreferences.add2FPointsCheckboxProperty.value = true;
   }
 
-  const sim = new GOSim( geometricOpticsBasicsStrings[ 'geometric-optics-basics' ].titleStringProperty, {
+  const sim = new GOSim( GeometricOpticsBasicsStrings[ 'geometric-optics-basics' ].titleStringProperty, {
     isBasicsVersion: true,
     phetioDesigned: true
   } );
