@@ -22,6 +22,6 @@ _Mirror_ screen:
 * Because the F and 2F points for a flat mirror are located at infinity, there are no checkboxes for “Focal Points” and "2F Points" in the control panel. It is NOT possible to add them via PhET-iO.
 * Change screen icon to a flat mirror. This cannot be changed via PhET-iO.
 
-Global (PhET > Options):
+Preferences > Simulation:
 * Default `focalLengthControlTypeProperty` to 'direct', and hide "Focal Length control" in the Options dialog. It is possible to make the control visible via PhET-iO. 
 * Default `add2FPointsCheckboxProperty` to `true`, so that "2F Points" checkbox is visible on the _Lens_ screen. This control will not affect the _Mirror_ screen.
