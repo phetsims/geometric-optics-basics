@@ -23,5 +23,5 @@ _Mirror_ screen:
 * Change screen icon to a flat mirror. This cannot be changed via PhET-iO.
 
 Preferences > Simulation:
-* Default `focalLengthControlTypeProperty` to 'direct', and hide "Focal Length control". It is possible to make the control visible via PhET-iO. 
+* Default `focalLengthControlTypeProperty` to 'direct'.
 * Default `add2FPointsCheckboxProperty` to `true`, so that "2F Points" checkbox is visible on the _Lens_ screen. This control will not affect the _Mirror_ screen.
