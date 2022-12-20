@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "geometric-optics-basics": {
-    "sha": "c87660e43894805de58ad30060ed6027262763d6",
+    "sha": "93866d6660ee1b3f181207b8370c1debd69e6f2b",
     "branch": "1.2"
   },
   "joist": {
@@ -69,7 +69,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "ace674f05a43199e80779d4ff3f4d0200c19eaab",
+    "sha": "dfd7ded7b85ffb837253b01313ca5f91fa72f1ec",
     "branch": "HEAD"
   },
   "scenery-phet": {
