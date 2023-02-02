@@ -217,18 +217,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.zoomInButton.enabledProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.zoomInButton.visibleProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.zoomOutButton.enabledProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.zoomOutButton.visibleProperty": {
-      "phetioFeatured": false
-    },
     "geometricOpticsBasics.lensScreen.view.objectDragModeProperty": {
       "phetioFeatured": true
     },
@@ -423,18 +411,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.visibleProperty": {
       "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.zoomInButton.enabledProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.zoomInButton.visibleProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.zoomOutButton.enabledProperty": {
-      "phetioFeatured": false
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.zoomOutButton.visibleProperty": {
-      "phetioFeatured": false
     },
     "geometricOpticsBasics.mirrorScreen.view.objectDragModeProperty": {
       "phetioFeatured": true
