@@ -11,9 +11,6 @@
   },
   "phet": {
     "requirejsNamespace": "GEOMETRIC_OPTICS_BASICS",
-    "phetLibs": [
-      "geometric-optics"
-    ],
     "simulation": true,
     "runnable": true,
     "supportedBrands": [
@@ -28,6 +25,12 @@
       "colorProfiles": [
         "default"
       ]
+    },
+    "phetLibs": [
+      "geometric-optics"
+    ],
+    "phet-io": {
+      "compareDesignedAPIChanges": true
     },
     "supportsOutputJS": true,
     "published": true
