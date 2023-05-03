@@ -85,9 +85,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.view.controls.controlPanel.visibleProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.view.controls.zoomButtonGroup.visibleProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.tools.toolboxNode.horizontalRulerIcon.visibleProperty": {
       "phetioFeatured": true
     },
@@ -171,9 +168,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.visibleProperty": {
       "phetioFeatured": false
-    },
-    "geometricOpticsBasics.mirrorScreen.view.controls.zoomButtonGroup.visibleProperty": {
-      "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.tools.toolboxNode.horizontalRulerIcon.visibleProperty": {
       "phetioFeatured": true
