@@ -4,9 +4,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.model.lens.focalLengthModels.indirectFocalLengthModel.indexOfRefractionProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.model.lens.radiusOfCurvatureProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.model.lens.focalLengthModels.indirectFocalLengthModel.radiusOfCurvatureMagnitudeProperty": {
       "phetioFeatured": true
     },
