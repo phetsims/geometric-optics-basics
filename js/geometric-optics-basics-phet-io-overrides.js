@@ -1,12 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "geometricOpticsBasics.lensScreen.model.lens.focalLengthModels.indirectFocalLengthModel.indexOfRefractionProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.model.lens.focalLengthModels.indirectFocalLengthModel.radiusOfCurvatureMagnitudeProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.visibleProperties.focalPointsVisibleProperty": {
       "phetioFeatured": true
     },
