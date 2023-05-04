@@ -13,34 +13,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "geometricOpticsBasics.lensScreen.model.lens.focalLengthModels.indirectFocalLengthModel.radiusOfCurvatureMagnitudeProperty": {
       "phetioFeatured": true
     },
-    "geometricOpticsBasics.lensScreen.model.scenes.arrowScene.arrowObject1.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.model.scenes.arrowScene.arrowObject2.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.model.scenes.framedScene.framedObject.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.model.scenes.lightScene.lightObject1.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.lensScreen.model.scenes.lightScene.lightObject2.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
     "geometricOpticsBasics.lensScreen.view.visibleProperties.focalPointsVisibleProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.lensScreen.view.visibleProperties.twoFPointsVisibleProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.model.scenes.arrowScene.arrowObject1.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.model.scenes.arrowScene.arrowObject2.objectDistanceProperty": {
-      "phetioFeatured": true
-    },
-    "geometricOpticsBasics.mirrorScreen.model.scenes.framedScene.framedObject.objectDistanceProperty": {
       "phetioFeatured": true
     },
     "geometricOpticsBasics.mirrorScreen.view.controls.opticSurfaceTypeRadioButtonGroup.enabledProperty": {
