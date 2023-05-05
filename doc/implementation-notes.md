@@ -18,7 +18,7 @@ _Lens_ screen:
 _Mirror_ screen:
 * Flat mirror only. It is NOT possible to add concave and convex mirror via PhET-iO.
 * Since we have only a flat mirror, optical objects can be moved freely, rather than being constrained to horizontal motion.
-* Since there is only one mirror shape, hide the radio button. It is possible to make it visible via PhET-iO.
+* Since there is only one mirror shape, hide the radio button. It is not possible to make it visible via PhET-iO, because it is not instrumented.
 * Since we have only a flat mirror, move the mirror to the same screen coordinates as the lens.
 * Because the F and 2F points for a flat mirror are located at infinity, there are no checkboxes for “Focal Points” and "2F Points" in the control panel. It is NOT possible to add them via PhET-iO.
 * Change screen icon to a flat mirror. This cannot be changed via PhET-iO.
