@@ -5,12 +5,12 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import geometricOpticsBasics from './geometricOpticsBasics.js';
 
 type StringsType = {
   'geometric-optics-basics': {
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   }
 };
 
