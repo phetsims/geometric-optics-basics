@@ -1,8 +1,8 @@
-_Geometric Optics: Basics_ is a simplified version of the _Geometric Optics_ simulation, and shares the same implementation.  Please see [geometric-optics/doc/implementation-notes.md](https://github.com/phetsims/geometric-optics/blob/master/doc/implementation-notes.md) for implementation details.
+_Geometric Optics: Basics_ is a simplified version of the _Geometric Optics_ simulation, and shares the same implementation.  Please see [geometric-optics/doc/implementation-notes.md](https://github.com/phetsims/geometric-optics/blob/main/doc/implementation-notes.md) for implementation details.
 
 To identify modifications that are specific to _Geometric Optics: Basics_:
 
-* Inspect [geometric-optics-basics-main.ts](https://github.com/phetsims/geometric-optics-basics/blob/master/js/geometric-optics-basics-main.ts).
+* Inspect [geometric-optics-basics-main.ts](https://github.com/phetsims/geometric-optics-basics/blob/main/js/geometric-optics-basics-main.ts).
 * Search for occurrences of the `isBasicsVersion` flag in geometric-optics code.
 
 From https://github.com/phetsims/geometric-optics-basics/issues/2, here's a summary of how _Geometric Optics: Basics_ differs from _Geometric Optics_. Unless specifically noted, these differences can be "undone" via PhET-iO.
