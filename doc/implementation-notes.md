@@ -5,8 +5,8 @@ for implementation details.
 
 To identify modifications that are specific to _Geometric Optics: Basics_:
 
-*
-Inspect [geometric-optics-basics-main.ts](https://github.com/phetsims/geometric-optics-basics/blob/main/js/geometric-optics-basics-main.ts).
+* Inspect
+  [geometric-optics-basics-main.ts](https://github.com/phetsims/geometric-optics-basics/blob/main/js/geometric-optics-basics-main.ts).
 * Search for occurrences of the `isBasicsVersion` flag in geometric-optics code.
 
 From https://github.com/phetsims/geometric-optics-basics/issues/2, here's a summary of how _Geometric Optics: Basics_
