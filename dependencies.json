@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "geometric-optics-basics": {
-    "sha": "0971ee04c84f320b38b8a1e985d3f1a97a0e196a",
+    "sha": "e067733a213bab025858c91d610476d76fa0598c",
     "branch": "1.3"
   },
   "joist": {
@@ -85,7 +85,7 @@
     "branch": "HEAD"
   },
   "sun": {
-    "sha": "8910c8d11a80922d3f4380fd42a614854d497e52",
+    "sha": "50ea360bb8270d6b1509d399d162baec38d5c694",
     "branch": "HEAD"
   },
   "tambo": {
