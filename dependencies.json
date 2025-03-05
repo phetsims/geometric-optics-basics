@@ -9,11 +9,11 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "d2b54ef4d29edc31e64adb2f9488803811cad03a",
+    "sha": "75314c6f6b53341202550c06eb18edbe2b183767",
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "b2df19eb5f3eed9dcd88272665f26154f053d503",
+    "sha": "65f0bdfe85b72ee91338967490bd36c7f9ce5b5f",
     "branch": "HEAD"
   },
   "dot": {
@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "geometric-optics-basics": {
-    "sha": "de82144876e7f783296f92557467c1d9c0a01091",
+    "sha": "8fbe0fd6af5203e5816c6d003e865bbef79b7887",
     "branch": "1.3"
   },
   "joist": {
-    "sha": "f73295e8935752bdd3effe4dcd06862aec917e94",
+    "sha": "e8850dadfb093ec41f7b8458d152c797be1624bd",
     "branch": "HEAD"
   },
   "kite": {
