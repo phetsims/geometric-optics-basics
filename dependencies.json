@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "38eb1c9fd7d051c270da9a54e4eeef27eca83bfa",
+    "sha": "538c9e2af1c4faad72d423c06a8a909bdef3323e",
     "branch": "HEAD"
   },
   "dot": {
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "geometric-optics-basics": {
-    "sha": "05cf65181e69bb1b0efa71e0ba5b1fd0dff73a61",
+    "sha": "7d6ef90778fe3db2f6961d0e1babf3291f270138",
     "branch": "1.3"
   },
   "joist": {
