@@ -19,6 +19,4 @@ type StringsType = {
 
 const GeometricOpticsBasicsStrings = getStringModule( 'GEOMETRIC_OPTICS_BASICS' ) as StringsType;
 
-geometricOpticsBasics.register( 'GeometricOpticsBasicsStrings', GeometricOpticsBasicsStrings );
-
 export default GeometricOpticsBasicsStrings;
