@@ -2,4 +2,4 @@
 
 _Geometric Optics: Basics_ is a simplified version of the _Geometric Optics_ simulation.
 Please refer to the release notes for _Geometric Optics_ at
-https://github.com/phetsims/geometric-optics/blob/main/doc/release-notes.md.
+[release-notes.md](../../geometric-optics/doc/release-notes.md).
